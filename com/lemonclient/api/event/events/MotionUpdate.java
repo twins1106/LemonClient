@@ -1,0 +1,16 @@
+//Deobfuscated with https://github.com/SimplyProgrammer/Minecraft-Deobfuscator3000 using mappings "C:\Users\user\πŸ≈¡ »≠∏È\map"!
+
+//Decompiled by Procyon!
+
+package com.lemonclient.api.event.events;
+
+import com.lemonclient.api.event.*;
+
+public class MotionUpdate extends LemonClientEvent
+{
+    public int stage;
+    
+    public MotionUpdate(final int stage) {
+        this.stage = stage;
+    }
+}
